@@ -1,9 +1,9 @@
-package bulder;
+package contractModule.bulder;
 
-import concreteBuilder.Contract;
-import concreteBuilder.LongTermContract;
-import concreteBuilder.PermanentContract;
-import concreteBuilder.ShortTermContract;
+import contractModule.concreteBuilder.Contract;
+import contractModule.concreteBuilder.LongTermContract;
+import contractModule.concreteBuilder.PermanentContract;
+import contractModule.concreteBuilder.ShortTermContract;
 
 public class ContractBuilder {
     private Contract contract;
@@ -39,16 +39,16 @@ public class ContractBuilder {
     }
 
     public ContractBuilder buildRentAmount(double rentAmount) {
-        contract.buildRentAmount(rentAmount);
+        this.contract.buildRentAmount(rentAmount);
         return this;
     }
 
     public ContractBuilder signContract() {
-        contract.signContract();
+        this.contract.signContract();
         return this;
     }
 
     public Contract build() {
-        return contract;
+        return this.contract;
     }
 }

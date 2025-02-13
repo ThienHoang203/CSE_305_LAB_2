@@ -1,7 +1,7 @@
-package director;
+package contractModule.director;
 
-import bulder.ContractBuilder;
-import concreteBuilder.Contract;
+import contractModule.bulder.ContractBuilder;
+import contractModule.concreteBuilder.Contract;
 
 public class Client {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package concreteBuilder;
+package contractModule.concreteBuilder;
 
-public class ShortTermContract implements Contract {
+public class PermanentContract implements Contract {
 
     private String contractID;
     private String propertyID;
@@ -35,7 +35,7 @@ public class ShortTermContract implements Contract {
     @Override
     public String toString() {
         return String.format(
-                "ShortTermContract [contractID = %s, propertyID = %s, tenantID = %s, rentAmount = %f ]\n",
+                "PermanentContract [contractID = %s, propertyID = %s, tenantID = %s, rentAmount = %f ]\n",
                 contractID, propertyID, tenantID, rentAmount);
 
     }

@@ -1,4 +1,4 @@
-package concreteBuilder;
+package contractModule.concreteBuilder;
 
 public interface Contract {
     void buildContractID(String contractID);
