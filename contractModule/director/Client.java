@@ -1,12 +1,12 @@
 package contractModule.director;
 
 import contractModule.bulder.ContractBuilder;
-import contractModule.concreteBuilder.Contract;
+import contractModule.concreteBuilder.PermanentContract;
 
 public class Client {
     public static void main(String[] args) {
         ContractBuilder builder = new ContractBuilder();
-        Contract permanentContract = builder.setPermanentContract()
+        PermanentContract permanentContract = (PermanentContract) builder.setPermanentContract()
                 .buildContractID("CI01")
                 .buildPropertyID("PI01")
                 .buildTenantID("TI001")
