@@ -9,10 +9,11 @@ import maintenanceRequest.Product.RequestProduct;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("&&&&&&&&&&&&");
+
         RequestCreator reqFactory;
         RequestProduct reqProd;
-
+        
+        System.out.println("&&&&&&&&&&&&");
         reqFactory = new LowPriorityConcreteCreator();
         reqProd = reqFactory.createRequest();
         reqProd.processRequest();
