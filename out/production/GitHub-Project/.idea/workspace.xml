@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d42a16bf-2e7e-4792-b04a-95def75e840e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/maintenanceRequest/ConcreteCreator/HighPriorityConcreteCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenanceRequest/ConcreteCreator/LowPriorityConcreteCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenanceRequest/ConcreteCreator/MidPriorityConcreteCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenanceRequest/ConcreteProduct/HighPriorityConcrete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenanceRequest/ConcreteProduct/LowPriorityConcrete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenanceRequest/ConcreteProduct/MidPriorityConcrete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenanceRequest/Creator/RequestCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenanceRequest/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenanceRequest/Product/RequestProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenanceRequest/RequestPriority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maintenanceRequest/RequestStatus.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ThienHoang203"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ThienHoang203/CSE_305_LAB_2.git",
+    "accountId": "3018154f-3df7-46bc-917b-43105dbbe3f3"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2taP24B9PZ3YLFYtGJezxquupJ4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Client.executor": "Run",
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/STUDY/CSE_305_Software_Engineering/GitHub-Project"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="documentModule.director.Client" />
+      <module name="GitHub-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="documentModule.director.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maintenanceRequest.Main" />
+      <module name="GitHub-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="maintenanceRequest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d42a16bf-2e7e-4792-b04a-95def75e840e" name="Changes" comment="" />
+      <created>1740587004369</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740587004369</updated>
+    </task>
+    <servers />
+  </component>
+</project>
