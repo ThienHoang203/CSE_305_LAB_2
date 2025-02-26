@@ -1,5 +1,6 @@
 package maintenanceRequest.ConcreteCreator;
 
+import maintenanceRequest.ConcreteProduct.HighPriorityConcrete;
 import maintenanceRequest.ConcreteProduct.MidPriorityConcrete;
 import maintenanceRequest.Creator.RequestCreator;
 import maintenanceRequest.Product.RequestProduct;
@@ -11,10 +12,10 @@ import java.time.LocalDate;
 public class HighPriorityConcreteCreator extends RequestCreator {
     @Override
     public RequestProduct createRequest() {
-        MidPriorityConcrete m = new MidPriorityConcrete();
-        m.setExpireDay(LocalDate.now().toString());
-        m.setStatus(RequestStatus.ACCEPT);
-        m.setPriority(RequestPriority.EMERGENCY);
-        return m;
+        HighPriorityConcrete creator = new HighPriorityConcrete();
+        creator.setExpireDay(LocalDate.now().toString());
+        creator.setStatus(RequestStatus.ACCEPT);
+        creator.setPriority(RequestPriority.EMERGENCY);
+        return creator;
     }
 }

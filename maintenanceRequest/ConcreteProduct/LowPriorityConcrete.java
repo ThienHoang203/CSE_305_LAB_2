@@ -22,6 +22,7 @@ public class LowPriorityConcrete extends RequestProduct {
 
     @Override
     public void processRequest() {
-        System.out.printf("Low-Priority Request [priority = %s, status = %s, expireDay: %s]\n", this.priority.getValue(), this.status.getValue(), this.expireDay);
+        System.out.printf("Low-Priority Request [priority = %s, status = %s, expireDay: %s]\n",
+                this.priority.getValue(), this.status.getValue(), this.expireDay);
     }
 }

@@ -3,7 +3,6 @@ package maintenanceRequest;
 import maintenanceRequest.ConcreteCreator.HighPriorityConcreteCreator;
 import maintenanceRequest.ConcreteCreator.LowPriorityConcreteCreator;
 import maintenanceRequest.ConcreteCreator.MidPriorityConcreteCreator;
-import maintenanceRequest.ConcreteProduct.LowPriorityConcrete;
 import maintenanceRequest.Creator.RequestCreator;
 import maintenanceRequest.Product.RequestProduct;
 

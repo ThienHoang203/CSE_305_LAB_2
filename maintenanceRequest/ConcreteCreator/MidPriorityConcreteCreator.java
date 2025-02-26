@@ -12,10 +12,10 @@ import java.time.LocalDate;
 public class MidPriorityConcreteCreator extends RequestCreator {
     @Override
     public RequestProduct createRequest() {
-        MidPriorityConcrete m = new MidPriorityConcrete();
-        m.setExpireDay(LocalDate.now().plusMonths(1).toString());
-        m.setStatus(RequestStatus.ACCEPTED);
-        m.setPriority(RequestPriority.MEDIUM);
-        return m;
+        MidPriorityConcrete creator = new MidPriorityConcrete();
+        creator.setExpireDay(LocalDate.now().plusMonths(1).toString());
+        creator.setStatus(RequestStatus.ACCEPTED);
+        creator.setPriority(RequestPriority.MEDIUM);
+        return creator;
     }
 }

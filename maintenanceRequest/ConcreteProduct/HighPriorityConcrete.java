@@ -22,6 +22,7 @@ public class HighPriorityConcrete extends RequestProduct {
 
     @Override
     public void processRequest() {
-        System.out.printf("High-Priority Request [priority = %s, status = %s, expireDay: %s]\n", this.priority.getValue(), this.status.getValue(), this.expireDay);
+        System.out.printf("High-Priority Request [priority = %s, status = %s, expireDay: %s]\n",
+                this.priority.getValue(), this.status.getValue(), this.expireDay);
     }
 }
