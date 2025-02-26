@@ -12,7 +12,7 @@ public class Main {
 
         RequestCreator reqFactory;
         RequestProduct reqProd;
-        
+
         System.out.println("&&&&&&&&&&&&");
         reqFactory = new LowPriorityConcreteCreator();
         reqProd = reqFactory.createRequest();
